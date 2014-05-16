@@ -1,7 +1,7 @@
 <!-- 
 .. title: Hello World!
 .. slug: hello-world
-.. date: 2013/02/25 17:00:25
+.. date: 2013/02/25 05:00:25 PM UTC+03:00
 .. tags: test 
 .. link: 
 .. description: a test post via Nikola 

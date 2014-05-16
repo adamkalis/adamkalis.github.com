@@ -1,7 +1,7 @@
 <!-- 
 .. title: GNUnify 2013
 .. slug: gnunify-2013
-.. date: 2013/02/28 18:00:08
+.. date: 2013/02/28 06:00:08 PM UTC+03:00
 .. tags: Mozilla, gnunify, foss, india
 .. link: 
 .. description: My experience from GNUnify 2013
@@ -12,7 +12,7 @@ All started at 02 Feb 2013 when I received an invitation mail from Mozilla India
 GNUnify is a three-day foss event in Pune, India. It is organized by Pune LUG and Symbiosis Institute of Computer Studies and Research (SICSR). It is a great opportunity for people from foss communities all over the India to meet each other. Also, it is a good chance for people to find out how to be involved at foss projects and learn more about the free and open source culture.
 
 
-![GNUnify Image](/galleries/gnunify%202013/gnunify.jpg)
+![GNUnify Image](/galleries/Gnunify%202013/gnunify.jpg)
 
 <!-- TEASER_END -->
 
