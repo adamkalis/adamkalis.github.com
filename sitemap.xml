@@ -6,7 +6,11 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
   <loc>http://adamkalis.github.io/2013/index.html</loc>
-  <lastmod>2014-05-16</lastmod>
+  <lastmod>2015-03-15</lastmod>
+ </url>
+ <url>
+  <loc>http://adamkalis.github.io/2014/index.html</loc>
+  <lastmod>2015-03-15</lastmod>
  </url>
  <url>
   <loc>http://adamkalis.github.io/FxOS-mwt/index.html</loc>
@@ -26,82 +30,102 @@
  </url>
  <url>
   <loc>http://adamkalis.github.io/archive.html</loc>
-  <lastmod>2014-05-16</lastmod>
+  <lastmod>2015-03-15</lastmod>
  </url>
  <url>
   <loc>http://adamkalis.github.io/categories/foss.html</loc>
-  <lastmod>2014-05-16</lastmod>
+  <lastmod>2015-03-15</lastmod>
  </url>
  <url>
   <loc>http://adamkalis.github.io/categories/gnunify.html</loc>
-  <lastmod>2014-05-16</lastmod>
+  <lastmod>2015-03-15</lastmod>
+ </url>
+ <url>
+  <loc>http://adamkalis.github.io/categories/hackerspacegr.html</loc>
+  <lastmod>2015-03-15</lastmod>
+ </url>
+ <url>
+  <loc>http://adamkalis.github.io/categories/hsgr.html</loc>
+  <lastmod>2015-03-15</lastmod>
  </url>
  <url>
   <loc>http://adamkalis.github.io/categories/index.html</loc>
-  <lastmod>2014-05-16</lastmod>
+  <lastmod>2015-03-15</lastmod>
  </url>
  <url>
   <loc>http://adamkalis.github.io/categories/india.html</loc>
-  <lastmod>2014-05-16</lastmod>
+  <lastmod>2015-03-15</lastmod>
  </url>
  <url>
   <loc>http://adamkalis.github.io/categories/mozfest.html</loc>
-  <lastmod>2014-05-16</lastmod>
+  <lastmod>2015-03-15</lastmod>
  </url>
  <url>
   <loc>http://adamkalis.github.io/categories/mozilla-festval.html</loc>
-  <lastmod>2014-05-16</lastmod>
+  <lastmod>2015-03-15</lastmod>
  </url>
  <url>
   <loc>http://adamkalis.github.io/categories/mozilla-greece.html</loc>
-  <lastmod>2014-05-16</lastmod>
+  <lastmod>2015-03-15</lastmod>
  </url>
  <url>
   <loc>http://adamkalis.github.io/categories/mozilla.html</loc>
-  <lastmod>2014-05-16</lastmod>
+  <lastmod>2015-03-15</lastmod>
+ </url>
+ <url>
+  <loc>http://adamkalis.github.io/categories/nasa-space-apps-challenge.html</loc>
+  <lastmod>2015-03-15</lastmod>
  </url>
  <url>
   <loc>http://adamkalis.github.io/categories/test.html</loc>
-  <lastmod>2014-05-16</lastmod>
+  <lastmod>2015-03-15</lastmod>
  </url>
  <url>
   <loc>http://adamkalis.github.io/galleries/Gnunify 2013/index.html</loc>
-  <lastmod>2014-05-16</lastmod>
+  <lastmod>2015-03-15</lastmod>
  </url>
  <url>
   <loc>http://adamkalis.github.io/galleries/Mozilla Festival 2013/index.html</loc>
-  <lastmod>2014-05-16</lastmod>
+  <lastmod>2015-03-15</lastmod>
  </url>
  <url>
   <loc>http://adamkalis.github.io/galleries/Mozilla Greece meetup 2013/index.html</loc>
-  <lastmod>2014-05-16</lastmod>
+  <lastmod>2015-03-15</lastmod>
+ </url>
+ <url>
+  <loc>http://adamkalis.github.io/galleries/Nasa Space Apps Challenge 2014/index.html</loc>
+  <lastmod>2015-03-15</lastmod>
  </url>
  <url>
   <loc>http://adamkalis.github.io/galleries/index.html</loc>
-  <lastmod>2014-05-16</lastmod>
+  <lastmod>2015-03-15</lastmod>
  </url>
  <url>
   <loc>http://adamkalis.github.io/index.html</loc>
-  <lastmod>2014-05-16</lastmod>
+  <lastmod>2015-03-15</lastmod>
  </url>
  <url>
   <loc>http://adamkalis.github.io/listings/index.html</loc>
-  <lastmod>2014-05-16</lastmod>
+  <lastmod>2015-03-15</lastmod>
  </url>
  <url>
   <loc>http://adamkalis.github.io/posts/gnunify-2013.html</loc>
-  <lastmod>2014-05-16</lastmod>
+  <lastmod>2015-03-15</lastmod>
  </url>
  <url>
   <loc>http://adamkalis.github.io/posts/hello-world.html</loc>
-  <lastmod>2014-05-16</lastmod>
+  <lastmod>2015-03-15</lastmod>
  </url>
  <url>
   <loc>http://adamkalis.github.io/posts/mozilla-festival-2013.html</loc>
-  <lastmod>2014-05-16</lastmod>
+  <lastmod>2015-03-15</lastmod>
  </url>
  <url>
   <loc>http://adamkalis.github.io/posts/mozilla-greece-meetup-2013.html</loc>
-  <lastmod>2014-05-16</lastmod>
+  <lastmod>2015-03-15</lastmod>
+ </url>
+ <url>
+  <loc>http://adamkalis.github.io/posts/nasa-space-apps-challenge-2014.html</loc>
+  <lastmod>2015-03-15</lastmod>
  </url>
 </urlset>

@@ -6,58 +6,74 @@
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
   <loc>http://adamkalis.github.io/categories/foss.xml</loc>
-  <lastmod>2014-05-16</lastmod>
+  <lastmod>2015-03-15</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://adamkalis.github.io/categories/gnunify.xml</loc>
-  <lastmod>2014-05-16</lastmod>
+  <lastmod>2015-03-15</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://adamkalis.github.io/categories/hackerspacegr.xml</loc>
+  <lastmod>2015-03-15</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://adamkalis.github.io/categories/hsgr.xml</loc>
+  <lastmod>2015-03-15</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://adamkalis.github.io/categories/india.xml</loc>
-  <lastmod>2014-05-16</lastmod>
+  <lastmod>2015-03-15</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://adamkalis.github.io/categories/mozfest.xml</loc>
-  <lastmod>2014-05-16</lastmod>
+  <lastmod>2015-03-15</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://adamkalis.github.io/categories/mozilla-festval.xml</loc>
-  <lastmod>2014-05-16</lastmod>
+  <lastmod>2015-03-15</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://adamkalis.github.io/categories/mozilla-greece.xml</loc>
-  <lastmod>2014-05-16</lastmod>
+  <lastmod>2015-03-15</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://adamkalis.github.io/categories/mozilla.xml</loc>
-  <lastmod>2014-05-16</lastmod>
+  <lastmod>2015-03-15</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://adamkalis.github.io/categories/nasa-space-apps-challenge.xml</loc>
+  <lastmod>2015-03-15</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://adamkalis.github.io/categories/test.xml</loc>
-  <lastmod>2014-05-16</lastmod>
+  <lastmod>2015-03-15</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://adamkalis.github.io/galleries/Gnunify 2013/rss.xml</loc>
-  <lastmod>2014-05-16</lastmod>
+  <lastmod>2015-03-15</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://adamkalis.github.io/galleries/Mozilla Festival 2013/rss.xml</loc>
-  <lastmod>2014-05-16</lastmod>
+  <lastmod>2015-03-15</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://adamkalis.github.io/galleries/Mozilla Greece meetup 2013/rss.xml</loc>
-  <lastmod>2014-05-16</lastmod>
+  <lastmod>2015-03-15</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://adamkalis.github.io/galleries/Nasa Space Apps Challenge 2014/rss.xml</loc>
+  <lastmod>2015-03-15</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://adamkalis.github.io/galleries/rss.xml</loc>
-  <lastmod>2014-05-16</lastmod>
+  <lastmod>2015-03-15</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://adamkalis.github.io/rss.xml</loc>
-  <lastmod>2014-05-16</lastmod>
+  <lastmod>2015-03-15</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://adamkalis.github.io/sitemap.xml</loc>
-  <lastmod>2014-05-16</lastmod>
+  <lastmod>2015-03-15</lastmod>
  </sitemap>
 </sitemapindex>

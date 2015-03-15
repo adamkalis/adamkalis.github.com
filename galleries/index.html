@@ -15,14 +15,16 @@
 
 
 
-    
-        <!--[if lt IE 9]><script src="/assets/js/html5.js"></script><![endif]-->
 
     
+        <!--[if lt IE 9]><script src="../assets/js/html5.js"></script><![endif]-->
+
+    
 
 
 
 
+<link rel="alternate" type="application/rss+xml" title="RSS" href="rss.xml">
 <style type="text/css">
     .image-block {
         display: inline-block;
@@ -35,6 +37,7 @@
 
 </head>
 <body>
+<a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
 
 <!-- Menubar -->
 
@@ -58,7 +61,7 @@
                 <ul class="nav">
                     
                 <li>
-<a href="../archive.html">Archives</a>
+<a href="../archive.html">Archive</a>
                 </li>
 <li>
 <a href="../categories/index.html">Tags</a>
@@ -80,7 +83,7 @@
     </div>
 </div>
 <!-- End of Menubar -->
-<div class="container-fluid" id="container-fluid">
+<div class="container-fluid" id="content" role="main">
     <!--Body content-->
     <div class="row-fluid">
     <div class="span2"></div>
@@ -90,16 +93,16 @@
     
 <nav class="breadcrumbs">
 <ul class="breadcrumb">
-        <li><a href="#">galleries</a></li>
+                <li>galleries</li>
 </ul>
 </nav>
 
     <h1>galleries</h1>
     <ul>
-        <li><a href="Gnunify%202013"><i class="icon-folder-open"></i> Gnunify 2013</a></li>
-        <li><a href="Mozilla%20Festival%202013"><i class="icon-folder-open"></i> Mozilla Festival 2013</a></li>
-        <li><a href="Mozilla%20Greece%20meetup%202013"><i class="icon-folder-open"></i> Mozilla Greece meetup 2013</a></li>
-        <li><a href="Nasa%20Space%20Apps%20Challenge%202014"><i class="icon-folder-open"></i> Nasa Space Apps Challenge 2014</a></li>
+        <li><a href="Gnunify%202013/"><i class="icon-folder-open"></i> Gnunify 2013</a></li>
+        <li><a href="Mozilla%20Festival%202013/"><i class="icon-folder-open"></i> Mozilla Festival 2013</a></li>
+        <li><a href="Mozilla%20Greece%20meetup%202013/"><i class="icon-folder-open"></i> Mozilla Greece meetup 2013</a></li>
+        <li><a href="Nasa%20Space%20Apps%20Challenge%202014/"><i class="icon-folder-open"></i> Nasa Space Apps Challenge 2014</a></li>
     </ul>
 
 <div id="gallery_container"></div>
@@ -119,7 +122,13 @@
             <script src="../assets/js/all-nocdn.js"></script>
     
 
-    <script>jQuery("a.image-reference").colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script>
+    <script>$('a.image-reference:not(.islink)').colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script>
+    <!-- fancy dates -->
+    <script>
+    moment.locale("");
+    fancydates(0, "YYYY-MM-DD HH:mm");
+    </script>
+    <!-- end fancy dates -->
     
 <script src="../assets/js/flowr.plugin.js"></script>
 <script>

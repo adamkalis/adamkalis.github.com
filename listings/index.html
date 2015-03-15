@@ -2,8 +2,9 @@
 <html prefix="og: http://ogp.me/ns# article: http://ogp.me/ns/article# " lang="en">
     <head>
     <meta charset="utf-8">
+    <meta name="description" content="listings">
     <meta name="viewport" content="width=device-width">
-    <title> | fredy's blog</title>
+    <title>listings | fredy's blog</title>
 
     
             <link href="../assets/css/all-nocdn.css" rel="stylesheet" type="text/css">
@@ -15,8 +16,9 @@
 
 
 
+
     
-        <!--[if lt IE 9]><script src="/assets/js/html5.js"></script><![endif]-->
+        <!--[if lt IE 9]><script src="../assets/js/html5.js"></script><![endif]-->
 
     
 
@@ -25,6 +27,7 @@
 
 </head>
 <body>
+<a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
 
 <!-- Menubar -->
 
@@ -48,7 +51,7 @@
                 <ul class="nav">
                     
                 <li>
-<a href="../archive.html">Archives</a>
+<a href="../archive.html">Archive</a>
                 </li>
 <li>
 <a href="../categories/index.html">Tags</a>
@@ -75,7 +78,7 @@
     </div>
 </div>
 <!-- End of Menubar -->
-<div class="container-fluid" id="container-fluid">
+<div class="container-fluid" id="content" role="main">
     <!--Body content-->
     <div class="row-fluid">
     <div class="span2"></div>
@@ -85,8 +88,7 @@
 
 <nav class="breadcrumbs">
 <ul class="breadcrumb">
-        <li><a href=".">listings</a></li>
-        <li><a href="#">index.html</a></li>
+                <li><a href=".">listings</a></li>
 </ul>
 </nav>
 
@@ -106,7 +108,13 @@
             <script src="../assets/js/all-nocdn.js"></script>
     
 
-    <script>jQuery("a.image-reference").colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script>
+    <script>$('a.image-reference:not(.islink)').colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script>
+    <!-- fancy dates -->
+    <script>
+    moment.locale("");
+    fancydates(0, "YYYY-MM-DD HH:mm");
+    </script>
+    <!-- end fancy dates -->
     
 
 

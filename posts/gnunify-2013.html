@@ -16,21 +16,30 @@
 
 
 
-    
-        <!--[if lt IE 9]><script src="/assets/js/html5.js"></script><![endif]-->
 
     
-
+        <!--[if lt IE 9]><script src="../assets/js/html5.js"></script><![endif]-->
 
     
 
+
+    
+
+    <meta name="description" itemprop="description" content="My experience from GNUnify 2013">
     <meta name="author" content="Alfredos-Panagiotis Damkalis">
+        <link rel="prev" href="hello-world.html" title="Hello World!" type="text/html">
+        <link rel="next" href="mozilla-greece-meetup-2013.html" title="Mozilla Greece Meetup 2013" type="text/html">
     
-        <meta name="og:title" content="GNUnify 2013">
-        <meta name="og:url" content="http://adamkalis.github.io/posts/gnunify-2013.html">
-            <meta name="og:description" content="My experience from GNUnify 2013">
-        <meta name="og:site_name" content="fredy's blog">
-        <meta name="og:type" content="article">
+    <meta property="og:site_name" content="fredy's blog">
+    <meta property="og:title" content="GNUnify 2013">
+    <meta property="og:url" content="http://adamkalis.github.io/posts/gnunify-2013.html">
+    <meta property="og:description" content="My experience from GNUnify 2013">
+    <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2013-02-28T18:00:08+03:00">
+           <meta property="article:tag" content="foss">
+           <meta property="article:tag" content="gnunify">
+           <meta property="article:tag" content="india">
+           <meta property="article:tag" content="Mozilla">
 
     
 
@@ -40,6 +49,7 @@
 
 </head>
 <body>
+<a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
 
 <!-- Menubar -->
 
@@ -63,7 +73,7 @@
                 <ul class="nav">
                     
                 <li>
-<a href="../archive.html">Archives</a>
+<a href="../archive.html">Archive</a>
                 </li>
 <li>
 <a href="../categories/index.html">Tags</a>
@@ -90,7 +100,7 @@
     </div>
 </div>
 <!-- End of Menubar -->
-<div class="container-fluid" id="container-fluid">
+<div class="container-fluid" id="content" role="main">
     <!--Body content-->
     <div class="row-fluid">
     <div class="span2"></div>
@@ -105,7 +115,7 @@
 
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn">Alfredos-Panagiotis Damkalis</span></p>
-            <p class="dateline"><a href="#" rel="bookmark"><time class="published dt-published" datetime="2013-02-28T18:00:08+03:00" itemprop="datePublished" title="Publication date">2013-02-28 18:00</time></a></p>
+            <p class="dateline"><a href="#" rel="bookmark"><time class="published dt-published" datetime="2013-02-28T18:00:08+03:00" itemprop="datePublished" title="2013-02-28 18:00">2013-02-28 18:00</time></a></p>
             
         <p class="sourceline"><a href="gnunify-2013.md" id="sourcelink">Source</a></p>
 
@@ -116,7 +126,8 @@
     </header>
 
     <div class="e-content entry-content" itemprop="articleBody text">
-    <p>All started at 02 Feb 2013 when I received an invitation mail from Mozilla India community about participating on <a href="http://gnunify.in/">GNUnify</a>.</p>
+    <div>
+<p>All started at 02 Feb 2013 when I received an invitation mail from Mozilla India community about participating on <a href="http://gnunify.in/">GNUnify</a>.</p>
 <p>GNUnify is a three-day foss event in Pune, India. It is organized by Pune LUG and Symbiosis Institute of Computer Studies and Research (SICSR). It is a great opportunity for people from foss communities all over the India to meet each other. Also, it is a good chance for people to find out how to be involved at foss projects and learn more about the free and open source culture.</p>
 <p><img alt="GNUnify Image" src="../galleries/Gnunify%202013/gnunify.jpg"></p>
 <!-- TEASER_END -->
@@ -144,15 +155,16 @@
 <p>The meetup was very interesting and we were the last participants who left the GNUnify event, of course after many group, and not only, photos. After that it followed a relaxing dinner and a great Indian movie, I didn't understand the language but I fully enjoyed it.</p>
 <p>It was very nice to meeting the Mozillians from India, I had the chance to talk with most of them and I believe that there is a large potential for great things to heppen in the future. Finally I want to thank everyone for this experience and especially the Mozillians from Pune for their awesome hospitality!</p>
 <p>Write your post here.</p>
+</div>
     </div>
     <aside class="postpromonav">
     <nav>
     
         <ul itemprop="keywords" class="tags">
-           <li><a class="tag p-category" href="../categories/mozilla.html" rel="tag">Mozilla</a></li>
            <li><a class="tag p-category" href="../categories/foss.html" rel="tag">foss</a></li>
            <li><a class="tag p-category" href="../categories/gnunify.html" rel="tag">gnunify</a></li>
            <li><a class="tag p-category" href="../categories/india.html" rel="tag">india</a></li>
+           <li><a class="tag p-category" href="../categories/mozilla.html" rel="tag">Mozilla</a></li>
         </ul>
 
     
@@ -188,7 +200,13 @@
             <script src="../assets/js/all-nocdn.js"></script>
     
 
-    <script>jQuery("a.image-reference").colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script>
+    <script>$('a.image-reference:not(.islink)').colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script>
+    <!-- fancy dates -->
+    <script>
+    moment.locale("");
+    fancydates(0, "YYYY-MM-DD HH:mm");
+    </script>
+    <!-- end fancy dates -->
     
 
 

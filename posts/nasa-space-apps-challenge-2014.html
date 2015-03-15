@@ -16,21 +16,30 @@
 
 
 
-    
-        <!--[if lt IE 9]><script src="/assets/js/html5.js"></script><![endif]-->
 
     
-
+        <!--[if lt IE 9]><script src="../assets/js/html5.js"></script><![endif]-->
 
     
 
+
+    
+
+    <meta name="description" itemprop="description" content="Nasa Space Apps Challenge 2014">
     <meta name="author" content="Alfredos-Panagiotis Damkalis">
+        <link rel="prev" href="mozilla-festival-2013.html" title="Mozilla Festival 2013" type="text/html">
     
-        <meta name="og:title" content="Nasa Space Apps Challenge 2014">
-        <meta name="og:url" content="http://adamkalis.github.io/posts/nasa-space-apps-challenge-2014.html">
-            <meta name="og:description" content="Nasa Space Apps Challenge 2014">
-        <meta name="og:site_name" content="fredy's blog">
-        <meta name="og:type" content="article">
+    <meta property="og:site_name" content="fredy's blog">
+    <meta property="og:title" content="Nasa Space Apps Challenge 2014">
+    <meta property="og:url" content="http://adamkalis.github.io/posts/nasa-space-apps-challenge-2014.html">
+    <meta property="og:description" content="Nasa Space Apps Challenge 2014">
+    <meta property="og:type" content="article">
+    <meta property="article:published_time" content="2014-05-16T19:13:49+03:00">
+           <meta property="article:tag" content="hackerspace.gr">
+           <meta property="article:tag" content="hsgr">
+           <meta property="article:tag" content="Mozilla">
+           <meta property="article:tag" content="mozilla-greece">
+           <meta property="article:tag" content="nasa space apps challenge">
 
     
 
@@ -40,6 +49,7 @@
 
 </head>
 <body>
+<a href="#content" class="sr-only sr-only-focusable">Skip to main content</a>
 
 <!-- Menubar -->
 
@@ -63,7 +73,7 @@
                 <ul class="nav">
                     
                 <li>
-<a href="../archive.html">Archives</a>
+<a href="../archive.html">Archive</a>
                 </li>
 <li>
 <a href="../categories/index.html">Tags</a>
@@ -90,7 +100,7 @@
     </div>
 </div>
 <!-- End of Menubar -->
-<div class="container-fluid" id="container-fluid">
+<div class="container-fluid" id="content" role="main">
     <!--Body content-->
     <div class="row-fluid">
     <div class="span2"></div>
@@ -105,7 +115,7 @@
 
         <div class="metadata">
             <p class="byline author vcard"><span class="byline-name fn">Alfredos-Panagiotis Damkalis</span></p>
-            <p class="dateline"><a href="#" rel="bookmark"><time class="published dt-published" datetime="2014-05-16T19:13:49+03:00" itemprop="datePublished" title="Publication date">2014-05-16 19:13</time></a></p>
+            <p class="dateline"><a href="#" rel="bookmark"><time class="published dt-published" datetime="2014-05-16T19:13:49+03:00" itemprop="datePublished" title="2014-05-16 19:13">2014-05-16 19:13</time></a></p>
             
         <p class="sourceline"><a href="nasa-space-apps-challenge-2014.md" id="sourcelink">Source</a></p>
 
@@ -116,19 +126,21 @@
     </header>
 
     <div class="e-content entry-content" itemprop="articleBody text">
-    <p>For one more time, Nasa Space Apps challenge took place in hackerspace.gr. Hackers of all ages gathered together in order to solve challenges using open software and hardware. For 48hours people planned and created software and hardware.</p>
+    <div>
+<p>For one more time, Nasa Space Apps challenge took place in hackerspace.gr. Hackers of all ages gathered together in order to solve challenges using open software and hardware. For 48hours people planned and created software and hardware.</p>
 <p><img alt="Nasa Space Apps Challenge Image 1" src="../galleries/Nasa%20Space%20Apps%20Challenge%202014/nasa-space-apps-1.jpg"> <img alt="Nasa Space Apps Challenge Image 2" src="../galleries/Nasa%20Space%20Apps%20Challenge%202014/nasa-space-apps-2.jpg"></p>
 <!-- TEASER_END -->
 
 <p>The Greek Mozilla Community was there for Mozilla, participating and sponsoring the event. It was a great opportunity to talk and inform people for what is Mozilla and its mission and how they can be involved in Mozilla. Also, we helped participants that had questions or were unaware about web technologies and how they can use them to solve some of the challenges.</p>
+</div>
     </div>
     <aside class="postpromonav">
     <nav>
     
         <ul itemprop="keywords" class="tags">
-           <li><a class="tag p-category" href="../categories/mozilla.html" rel="tag">Mozilla</a></li>
            <li><a class="tag p-category" href="../categories/hackerspacegr.html" rel="tag">hackerspace.gr</a></li>
            <li><a class="tag p-category" href="../categories/hsgr.html" rel="tag">hsgr</a></li>
+           <li><a class="tag p-category" href="../categories/mozilla.html" rel="tag">Mozilla</a></li>
            <li><a class="tag p-category" href="../categories/mozilla-greece.html" rel="tag">mozilla-greece</a></li>
            <li><a class="tag p-category" href="../categories/nasa-space-apps-challenge.html" rel="tag">nasa space apps challenge</a></li>
         </ul>
@@ -163,7 +175,13 @@
             <script src="../assets/js/all-nocdn.js"></script>
     
 
-    <script>jQuery("a.image-reference").colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script>
+    <script>$('a.image-reference:not(.islink)').colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script>
+    <!-- fancy dates -->
+    <script>
+    moment.locale("");
+    fancydates(0, "YYYY-MM-DD HH:mm");
+    </script>
+    <!-- end fancy dates -->
     
 
 
