@@ -5,8 +5,12 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
+  <loc>http://adamkalis.github.io/categories/buddyup.xml</loc>
+  <lastmod>2015-03-16</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>http://adamkalis.github.io/categories/foss.xml</loc>
-  <lastmod>2015-03-15</lastmod>
+  <lastmod>2015-03-16</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://adamkalis.github.io/categories/gnunify.xml</loc>
@@ -38,11 +42,15 @@
  </sitemap>
  <sitemap>
   <loc>http://adamkalis.github.io/categories/mozilla.xml</loc>
-  <lastmod>2015-03-15</lastmod>
+  <lastmod>2015-03-16</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://adamkalis.github.io/categories/nasa-space-apps-challenge.xml</loc>
   <lastmod>2015-03-15</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://adamkalis.github.io/categories/qa.xml</loc>
+  <lastmod>2015-03-16</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://adamkalis.github.io/categories/test.xml</loc>
@@ -65,15 +73,19 @@
   <lastmod>2015-03-15</lastmod>
  </sitemap>
  <sitemap>
+  <loc>http://adamkalis.github.io/galleries/QA BuddyUp Pilot - Paris 2015/rss.xml</loc>
+  <lastmod>2015-03-16</lastmod>
+ </sitemap>
+ <sitemap>
   <loc>http://adamkalis.github.io/galleries/rss.xml</loc>
   <lastmod>2015-03-15</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://adamkalis.github.io/rss.xml</loc>
-  <lastmod>2015-03-15</lastmod>
+  <lastmod>2015-03-16</lastmod>
  </sitemap>
  <sitemap>
   <loc>http://adamkalis.github.io/sitemap.xml</loc>
-  <lastmod>2015-03-15</lastmod>
+  <lastmod>2015-03-16</lastmod>
  </sitemap>
 </sitemapindex>
